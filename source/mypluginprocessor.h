@@ -58,16 +58,19 @@ protected:
 	Steinberg::Vst::ParamValue period1=0.5;
 	Steinberg::Vst::ParamValue master=1.0;
 	Steinberg::Vst::SampleRate SR=44100;
+	double dt1;
 	//int32 numChannels=2;
 	Steinberg::Vst::Sample32* mem;
 	Steinberg::Vst::Sample32* F1;
 	size_t F1idx;
 	size_t diff;
-	size_t readidx[10];
+	long long readidx[10];
 	Steinberg::int32 numChannels=2;
-	size_t writeidx[10];
-	size_t ML=SR*maxdelay*2;
+	long long writeidx[10];
+	long long ML=SR*maxdelay*2;
+	long long idx_OLD;
 	size_t TT1=SR*flangermax;
+	double systime;
 
 
 };

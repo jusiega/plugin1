@@ -28,7 +28,7 @@ enum FlangerParams : Steinberg::Vst::ParamID
 
 static const double maxdelay=1;
 //static const double flangerlow=0;
-static const double flangermax=10;
+static const double flangermax=22;
 
 static const Steinberg::FUID kplugin1ProcessorUID (0x7A379F59, 0x443E5A6E, 0x9EDADFAB, 0xC31282BD);
 static const Steinberg::FUID kplugin1ControllerUID (0x49AFF30A, 0x6A965AC4, 0xBF1BAD24, 0xCB9A594F);
