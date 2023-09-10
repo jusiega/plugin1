@@ -60,7 +60,7 @@ PRIVATE
 sdk
 )
 
-#target_include_directories(plugin1 "C:/Users/pj/fftw-3.3.10/api/")
+include_directories("C:/Users/pj/fftw-3.3.10/api/")
 
 smtg_target_configure_version_file(plugin1)
 

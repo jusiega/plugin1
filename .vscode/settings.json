@@ -1,7 +1,12 @@
 {
     "dotnet.defaultSolution": "build/plugin1.sln",
     "files.associations": {
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "algorithm": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "xhash": "cpp",
+        "xloctime": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "enabled"
 }

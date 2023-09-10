@@ -3,9 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/Users/pj/fftw-3.3.10/api/",
-                "C:/Users/pj/fftw-3.3.10/**"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
