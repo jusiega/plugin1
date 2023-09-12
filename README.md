@@ -23,3 +23,7 @@ Byle nie trzeszczało bo wtedy wydaje się że coś jest zepsute. Sprowadza się
 Modulacja opóźnieniem sygnału wymaga regularnego pomijania jakiejś liczby próbek w odtwarzanym sygnale co wprowadza zniekształcenia. Zastosowano liniową interpolację mającą je wygładzać, jednak na niewiele się ona zdała. Jak zostało wspomniane dużu wpływ może mieć wykorzystany DAW, "host" wtyczki. Podobnie słychać znaczące trzaski w trakcie regulowania wartością opóźnienia.
 # Dlaczego w tym piekielnym środowisku i języku
 Po odpowiednim zainstancjonowaniu w programie możliwe jest dołączanie efektu do sygnału w czasie zasadniczo rzeczywistym. Umożliwia to przepuszczenie przez nią bez strat na responsywności przykładowo sygnału z instrumentu lub wokalu.
+# Gdzie znajduje się wtyczka
+Jeśli systemowi powiodło się utworzenie linków symbolicznych do wtyczki to znajdują się one w katalogu %LOCALAPPDATA\Programs\Common\VST3. Jeśli nie, to powinny być w katalogu plugin1\build\VST3\Release. Repozytorium udostępnione jest ze skompilowaną pod system Windows wtyczką.
+# Gdzie znajduje się kod stworzony nieautomatyczne
+W katalogu plugin1\source. Część jego jednak została wygenerowana automatycznie.
