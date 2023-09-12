@@ -20,6 +20,7 @@ double triangel(double x)
 	return 2.0/3.1415926535897932384626433*asin(sin(x));
 }
 
+
 using namespace Steinberg;
 
 namespace xD {
@@ -90,23 +91,24 @@ tresult PLUGIN_API plugin1Processor::setActive(TBool state)
 		{
 			//writeidx[i]=0+i*ML;
 			//maxdelay*value-tdelay1
-			readidx[i]=size_t(i*ML);
-			writeidx[i]=size_t(tdelay1*SR+i*ML);
+			readidx[i]=i*ML;
+			readidx2[i]=i*ML;
+			writeidx[i]=tdelay1*SR+i*ML;
 		}
 		
-		F1=new Vst::Sample32[TT1+10]();
-		F1idx=0;
-		for (int i=0;i<period1*SR;i++)
-		{
-			F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
-		}
+		//F1=new Vst::Sample32[TT1+10]();
+		//F1idx=0;
+		//for (int i=0;i<period1*SR;i++)
+		//{
+		//	F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
+		//}
 
 	}
 	if (!state)
 	{
 		memset(mem,0.0,size_t(numChannels*ML*sizeof(Vst::Sample32)));
 		delete[] mem;
-		delete[] F1;
+		//delete[] F1;
 
 	}
 	return AudioEffect::setActive(state);
@@ -146,20 +148,48 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 						}
 						break;
 					}
+					case GainParams::kParamDelay2GainId:
+                    {
+						if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
+                        {
+						    d2gain=value;
+						}
+						break;
+					}
 					case DelayParams::kParamDelayId:
                     {
 					    if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
                         {
 						    tdelay1=maxdelay*value;
 						}
-						for (int i=0;i<numChannels;i++)
-						{
-							//writeidx[i]=0+i*ML;
-							//maxdelay*value-tdelay1
-							readidx[i]=long long(i*ML);
-							writeidx[i]=long long(tdelay1*SR+i*ML);
+						//for (int i=0;i<numChannels;i++)
+						//{
+						//	//writeidx[i]=0+i*ML;
+						//	//maxdelay*value-tdelay1
+						//	readidx[i]=long long(i*ML);
+						//	writeidx[i]=long long(tdelay1*SR+i*ML);
+						//}
+						//F1idx=0;
+						//for (int i=0;i<period1*SR;i++)
+						//{
+						//	F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
+						//}
+						break;
+					}
+					case DelayParams::kParamDelay2Id:
+                    {
+					    if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
+                        {
+						    tdelay2=maxdelay*value;
 						}
-						F1idx=0;
+						//for (int i=0;i<numChannels;i++)
+						//{
+						//	//writeidx[i]=0+i*ML;
+						//	//maxdelay*value-tdelay1
+						//	readidx[i]=long long(i*ML);
+						//	writeidx[i]=long long(tdelay1*SR+i*ML);
+						//}
+						//F1idx=0;
 						//for (int i=0;i<period1*SR;i++)
 						//{
 						//	F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
@@ -171,6 +201,14 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 						if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
                         {
 						    pan1=value;
+						}
+						break;
+					}
+					case DelayParams::kParamDelay2PanId:
+                    {
+						if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
+                        {
+						    pan2=value;
 						}
 						break;
 					}
@@ -204,6 +242,34 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 						//{
 						//	F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
 						//}
+						break;
+					}
+					case FlangerParams::kParamFlanger2AmplitudeId:
+                    {
+						if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
+                        {
+						    amplitude2=value;
+						}
+						//for (int i=0;i<period1*SR;i++)
+						//{
+						//	F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
+						//}
+						break;
+					}
+					case FlangerParams::kParamFlanger2PeriodId:
+                    {
+						if (paramQueue->getPoint(numPoints-1,sampleOffset,value)==kResultTrue)
+                        {
+						    period2=flangermax*value;
+						}
+						//for (int i=0;i<period1*SR;i++)
+						//{
+						//	F1[i]=tdelay1*SR+amplitude1*tdelay1*SR*sin(2.0*3.1415926/(period1+1E-10)*double(i));
+						//}
+						break;
+					}
+					default:
+					{
 						break;
 					}
 				}
@@ -246,12 +312,7 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 	//assert output
 	data.outputs[0].silenceFlags = 0;
 
-	//float gain=mGain;
-	//float delay=mDelay;
-	// for each channel
-	//int32 del=2048;
-	//int32 cunt0=0;
-	//int32 cunt1=0;
+
 	for (int32 i=0; i<numChannels; i++)
 	{
 		int32 samples = data.numSamples;
@@ -266,14 +327,15 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 		for (int j=0; j<samples; j++)
 		{
 			mem[writeidx[i]]=ptrIn[j];
-			ptrOut[j]=(ptrIn[j]*ingain+mem[readidx[i]]*d1gain*((4.0*pan1-2)*((Vst::Sample32)i-0.5)+1))*master;//genius panning
+			ptrOut[j]=(ptrIn[j]*ingain+mem[readidx[i]]*d1gain*((4.0*pan1-2)*((Vst::Sample32)i-0.5)+1)+mem[readidx2[i]]*d2gain*((4.0*pan2-2)*((Vst::Sample32)i-0.5)+1))*master;//genius panning
 			// apply delay
 			//tmp = (*ptrIn++) * gain;
 			//(*ptrOut++) = tmp;
 			//ptrIn[j]=ptrIn[j]*ingain;
 		
 			systime= double((data.processContext)->systemTime)*1E-9;
-			dt1=0.05*tdelay1*amplitude1*triangel(2*3.1415926535897932384626433832795/(period1+1E-10)*systime)+tdelay1;
+			dt1=0.1*tdelay1*amplitude1*triangel(2*3.1415926535897932384626433832795/(period1+1E-10)*systime)+tdelay1;
+			dt2=0.1*tdelay2*amplitude2*triangel(2*3.1415926535897932384626433832795/(period2+1E-10)*systime)+tdelay2;
 			
 
 			//if (readidx[i]<(i+1)*ML-1)
@@ -285,33 +347,6 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 			//	readidx[i]=size_t(i*ML);
 			//}
 			
-			
-			
-			
-			/*if (i==0)
-			{
-				mem0[cunt0]=&(*ptrIn++);
-				if (cunt0!=4095)
-				{
-					cunt0++;
-				}
-				else
-				{
-					cunt0=0;
-				}
-			}
-			if (i==1)
-			{
-				mem1[cunt1]=&(*ptrIn++);
-				if (cunt1!=4095)
-				{
-					cunt1++;
-				}
-				else
-				{
-					cunt1=0;
-				}
-			}*/
 
 			//FLANGER
 			//if(writeidx[i]-readidx[i]>0.0)
@@ -338,9 +373,7 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 			//{
 			//	goto skip;
 			//}
-			//FLANGER NO WORK
-			//FLANGER BAD
-			//ALMOST END FLANGER PROCEDURE
+			//TRZESZCZY
 			
 			/*if (readidx[i]<(i+1)*ML-1)
 			{
@@ -379,14 +412,20 @@ tresult PLUGIN_API plugin1Processor::process(Vst::ProcessData& data)
 			{
 				//for (int k=0;k<4;k++)
 				mem[readidx[i]]=mem[idx_OLD+1]+mem[readidx[i]]/2.0; //interpolejszyn for flanger
-				//interpolejszyn worsens the distorszyn
+				//interpolejszyn worsens the distorszyn for sine wave modulation
 			}
-			/*if (idx_OLD-readidx[i]==0)
+			idx_OLD=readidx2[i];
+			readidx2[i]=writeidx[i]-dt2*SR;
+			if (readidx2[i]<i*ML)
+			{
+				readidx2[i]+=ML;
+			}
+			if (idx_OLD-readidx2[i]==2)
 			{
 				//for (int k=0;k<4;k++)
-				mem[readidx[i]]=mem[readidx[i]-1]+mem[readidx[i]]/2.0; //interpolejszyn for flanger
-				//interpolejszyn worsens the distorszyn
-			}*/
+				mem[readidx2[i]]=mem[idx_OLD+1]+mem[readidx2[i]]/2.0; //second interpolejszyn for flanger
+				//dla fali trójkątnej pomaga nie trzaska 
+			}
 
 			
 		}

@@ -27,11 +27,16 @@ tresult PLUGIN_API plugin1Controller::initialize (FUnknown* context)
 
 	// Here you could register some parameters
 	parameters.addParameter (STR16 ("Input Gain"), STR16 ("dB"), 0, 1, Vst::ParameterInfo::kCanAutomate, GainParams::kParamGainId);
-	parameters.addParameter (STR16 ("Delay 1 Time"), STR16 ("s"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, DelayParams::kParamDelayId);
+	parameters.addParameter (STR16 ("Delay 1 Time"), STR16 ("s"), 0, 0.6, Vst::ParameterInfo::kCanAutomate, DelayParams::kParamDelayId);
 	parameters.addParameter (STR16 ("Delay 1 Gain"), STR16 ("dB"), 0, 1, Vst::ParameterInfo::kCanAutomate, GainParams::kParamDelayGainId);
-	parameters.addParameter (STR16 ("Delay 1 Pan"), STR16 ("L/R"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, DelayParams::kParamDelayPanId);
+	parameters.addParameter (STR16 ("Delay 1 Pan"), STR16 ("L/R"), 0, 0.2, Vst::ParameterInfo::kCanAutomate, DelayParams::kParamDelayPanId);
 	parameters.addParameter (STR16 ("Flanger 1 Amplitude"), STR16 ("%"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, FlangerParams::kParamFlangerAmplitudeId);
 	parameters.addParameter (STR16 ("Flanger 1 Period"), STR16 ("s"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, FlangerParams::kParamFlangerPeriodId);
+	parameters.addParameter (STR16 ("Delay 2 Time"), STR16 ("s"), 0, 0.4, Vst::ParameterInfo::kCanAutomate, DelayParams::kParamDelay2Id);
+	parameters.addParameter (STR16 ("Delay 2 Gain"), STR16 ("dB"), 0, 1, Vst::ParameterInfo::kCanAutomate, GainParams::kParamDelay2GainId);
+	parameters.addParameter (STR16 ("Delay 2 Pan"), STR16 ("L/R"), 0, 0.8, Vst::ParameterInfo::kCanAutomate, DelayParams::kParamDelay2PanId);
+	parameters.addParameter (STR16 ("Flanger 2 Amplitude"), STR16 ("%"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, FlangerParams::kParamFlanger2AmplitudeId);
+	parameters.addParameter (STR16 ("Flanger 2 Period"), STR16 ("s"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, FlangerParams::kParamFlanger2PeriodId);
 	parameters.addParameter (STR16 ("Master"), STR16 ("dB"), 0, 0.5, Vst::ParameterInfo::kCanAutomate, GainParams::kParamMasterId);
 	
 	return result;
@@ -118,7 +123,19 @@ tresult PLUGIN_API plugin1Controller::getParamStringByValue (Vst::ParamID tag, V
 			result.printFloat(gejn);
 			break;
 		}
+		case kParamDelay2GainId:
+		{
+			double gejn=20.0*log10(1.0*valueNormalized);
+			result.printFloat(gejn);
+			break;
+		}
 		case kParamDelayPanId:
+		{
+			double pan=2.0*valueNormalized-1.0;
+			result.printFloat(pan);
+			break;
+		}
+		case kParamDelay2PanId:
 		{
 			double pan=2.0*valueNormalized-1.0;
 			result.printFloat(pan);
@@ -136,6 +153,12 @@ tresult PLUGIN_API plugin1Controller::getParamStringByValue (Vst::ParamID tag, V
 			result.printFloat(tajm);
 			break;
 		}
+		case kParamDelay2Id:
+		{
+			double tajm=valueNormalized*maxdelay;
+			result.printFloat(tajm);
+			break;
+		}
 		case kParamFlangerAmplitudeId:
 		{
 			//UString128 p="%";
@@ -145,6 +168,20 @@ tresult PLUGIN_API plugin1Controller::getParamStringByValue (Vst::ParamID tag, V
 			break;
 		}
 		case kParamFlangerPeriodId:
+		{
+			double sek=valueNormalized*flangermax;
+			result.printFloat(sek);
+			break;
+		}
+		case kParamFlanger2AmplitudeId:
+		{
+			//UString128 p="%";
+			double procent=valueNormalized*100;
+			result.printFloat(procent);
+			//result.append(p);
+			break;
+		}
+		case kParamFlanger2PeriodId:
 		{
 			double sek=valueNormalized*flangermax;
 			result.printFloat(sek);
