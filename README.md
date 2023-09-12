@@ -10,16 +10,16 @@ Visual Studio C++, jako generator dla CMake,
 
 VST3 SDK: https://github.com/steinbergmedia/vst3sdk
 
-#Kompilacja
+# Kompilacja
 W katalogu \vst3sdk\ otworzyc cmake-gui, oznaczyć \vst3sdk\ jako katalog żródłowy, stworzyć weń katalog \build\ i oznaczyć go jako docelowy katalog generacji, dokonać konfiguracji i generacji przy pomocy odpowiedniego generatora, np. "Visual Studio 17 2022". Obok katalogu \vst3sdk\ umieścić katalog \plugin1\. Zmodyfikować plik CMakeLists.txt tak aby zawierał odpowiednią ścieżkę do vst3sdk. Powtórzyć następnie procedurę z cmake-gui, zastępując katalog vst3sdk katalogiem plugin1. Następnie otworzyć terminal (administratora), przenieść się do katalogu \plugin1\build i wywołać komendę:
 ```
 cmake --build . --config Release --target plugin1
 ```
-#Rekomendowane oprogramowanie tesujące
+# Rekomendowane oprogramowanie tesujące
 Dowolny DAW, z zastrzeżeniem że niektóre trzeszczą.
-#Rekomendowane ustawienia
+# Rekomendowane ustawienia
 Byle nie trzeszczało bo wtedy wydaje się że coś jest zepsute. Sprowadza się to do wysokich ustawień "flanger period" oraz niskich ustawień "flanger amplitude"
-#Dlaczego trzeszczy?
+# Dlaczego trzeszczy?
 Modulacja opóźnieniem sygnału wymaga regularnego pomijania jakiejś liczby próbek w odtwarzanym sygnale co wprowadza zniekształcenia. Zastosowano liniową interpolację mającą je wygładzać, jednak na niewiele się ona zdała. Jak zostało wspomniane dużu wpływ może mieć wykorzystany DAW, "host" wtyczki. Podobnie słychać znaczące trzaski w trakcie regulowania wartością opóźnienia.
-#Dlaczego w tym piekielnym środowisku i języku
+# Dlaczego w tym piekielnym środowisku i języku
 Po odpowiednim zainstancjonowaniu w programie możliwe jest dołączanie efektu do sygnału w czasie zasadniczo rzeczywistym. Umożliwia to przepuszczenie przez nią bez strat na responsywności przykładowo sygnału z instrumentu lub wokalu.
