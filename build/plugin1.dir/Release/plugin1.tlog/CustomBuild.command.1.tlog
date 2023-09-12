@@ -1,0 +1,34 @@
+^C:\USERS\PJ\VST3\PLUGIN1\RESOURCE\7A379F59443E5A6E9EDADFABC31282BD_SNAPSHOT.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pj/vst3/plugin1/resource/7A379F59443E5A6E9EDADFABC31282BD_snapshot.png C:/Users/pj/vst3/plugin1/build/VST3/Release/plugin1.vst3/Contents/Resources/Snapshots/7A379F59443E5A6E9EDADFABC31282BD_snapshot.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/pj/vst3/plugin1/resource/7A379F59443E5A6E9EDADFABC31282BD_snapshot.png to C:/Users/pj/vst3/plugin1/build/VST3/Release/plugin1.vst3/Contents/Resources/Snapshots/7A379F59443E5A6E9EDADFABC31282BD_snapshot.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PJ\VST3\PLUGIN1\RESOURCE\7A379F59443E5A6E9EDADFABC31282BD_SNAPSHOT_2.0X.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pj/vst3/plugin1/resource/7A379F59443E5A6E9EDADFABC31282BD_snapshot_2.0x.png C:/Users/pj/vst3/plugin1/build/VST3/Release/plugin1.vst3/Contents/Resources/Snapshots/7A379F59443E5A6E9EDADFABC31282BD_snapshot_2.0x.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/pj/vst3/plugin1/resource/7A379F59443E5A6E9EDADFABC31282BD_snapshot_2.0x.png to C:/Users/pj/vst3/plugin1/build/VST3/Release/plugin1.vst3/Contents/Resources/Snapshots/7A379F59443E5A6E9EDADFABC31282BD_snapshot_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PJ\VST3\PLUGIN1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pj/vst3/plugin1 -BC:/Users/pj/vst3/plugin1/build --check-stamp-file C:/Users/pj/vst3/plugin1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

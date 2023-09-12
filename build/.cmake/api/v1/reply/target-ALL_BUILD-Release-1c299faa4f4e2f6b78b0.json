@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "pitchnames::@8373f61a1897afc68a4f"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@8373f61a1897afc68a4f",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst/pitchnames",
+		"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/pitchnames"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

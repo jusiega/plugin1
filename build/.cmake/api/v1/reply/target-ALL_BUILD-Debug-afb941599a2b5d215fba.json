@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/panner/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "panner::@9ddfdca674381b5d9228"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@9ddfdca674381b5d9228",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst/panner",
+		"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/panner"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,43 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "again::@04115df932e4fc49a110"
+		},
+		{
+			"id" : "againsimple::@04115df932e4fc49a110"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@04115df932e4fc49a110",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst/again",
+		"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

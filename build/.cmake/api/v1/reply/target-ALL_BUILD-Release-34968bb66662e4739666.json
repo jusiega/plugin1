@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "adelay::@c6beefe1847bdd1b4085"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@c6beefe1847bdd1b4085",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst/adelay",
+		"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/adelay"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

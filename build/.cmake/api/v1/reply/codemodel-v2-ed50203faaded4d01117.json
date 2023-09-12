@@ -1,0 +1,2698 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						21,
+						40
+					]
+				},
+				{
+					"build" : "vst3sdk",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16,
+						18,
+						39
+					],
+					"jsonFile" : "directory-vst3sdk-Debug-ee4ca2ec74fb292d21eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk",
+					"targetIndexes" : 
+					[
+						0,
+						28,
+						29,
+						51
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build-Debug-f877a023f2ad09e8b715.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui-Debug-3e458e7ec8d3cf157e38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/lib",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.lib-Debug-442be628c812d36b8f4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/lib",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/uidescription",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.uidescription-Debug-522e272945959f8f0811.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/uidescription",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/standalone",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.standalone-Debug-1c81f75ff727bec81879.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/standalone",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "vst3sdk/pluginterfaces",
+					"jsonFile" : "directory-vst3sdk.pluginterfaces-Debug-e33e1e0341f1ca885263.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "C:/Users/pj/vst3/vst3sdk/pluginterfaces",
+					"targetIndexes" : 
+					[
+						11,
+						41
+					]
+				},
+				{
+					"build" : "vst3sdk/base",
+					"jsonFile" : "directory-vst3sdk.base-Debug-2b6e4b49f29d5ccf1b09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "C:/Users/pj/vst3/vst3sdk/base",
+					"targetIndexes" : 
+					[
+						13,
+						26
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk",
+					"jsonFile" : "directory-vst3sdk.public.sdk-Debug-f68a4a36e996c539b4fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk",
+					"targetIndexes" : 
+					[
+						17,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/interappaudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.interappaudio-Debug-cd28a4547114b6aef455.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/source/vst/interappaudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting-Debug-e03d3796e5f47ed842b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/audiohost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.audiohost-Debug-3fbcd39003aca119f16d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/audiohost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.editorhost-Debug-c1b799fc71959d7a4283.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.inspectorapp-Debug-c9264b1af6a55fbb6130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.validator-Debug-0ec6ffcbe801bbc1e7b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities-Debug-52016ff271aa525a3549.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-utilities"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities.moduleinfotool-Debug-1e14aa4271a305ce149e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst",
+					"childIndexes" : 
+					[
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-Debug-9d3cb27c1b66b774a79b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/InterAppAudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.InterAppAudio-Debug-246d3a667e481db9d5c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/InterAppAudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/adelay",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.adelay-Debug-f7dec84e8e62bbcc8782.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 5,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/adelay",
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again-Debug-501610972888b4076628.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again",
+					"targetIndexes" : 
+					[
+						2,
+						23,
+						25
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_aax",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_aax-Debug-1dc0c2e9a4fd85e7fbd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 7,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again_aax"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_auv3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_auv3-Debug-3aa25ee5f62fb166dcde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again_auv3"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_sampleaccurate",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_sampleaccurate-Debug-250a1e974ab9c73d3257.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 8,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again_sampleaccurate",
+					"targetIndexes" : 
+					[
+						10,
+						24
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/channelcontext",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.channelcontext-Debug-eb7c0a957e4f14000d9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 9,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/channelcontext",
+					"targetIndexes" : 
+					[
+						12,
+						27
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/hostchecker",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.hostchecker-Debug-9deaacadd126b5395da1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 10,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/hostchecker",
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/hostchecker_aax",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.hostchecker_aax-Debug-6aed2a92fd5ecaa7c578.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/hostchecker_aax"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/legacymidiccout",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.legacymidiccout-Debug-c64ae0c3ad186f0f7f2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 11,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/legacymidiccout",
+					"targetIndexes" : 
+					[
+						14,
+						32
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/mda-vst3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.mda-vst3-Debug-5501720c1d4bb0116cde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 12,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/mda-vst3",
+					"targetIndexes" : 
+					[
+						15,
+						33
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/multiple_programchanges",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.multiple_programchanges-Debug-e72dd49fcf2d469fc0eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 13,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/multiple_programchanges",
+					"targetIndexes" : 
+					[
+						16,
+						35
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_synth",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_synth-Debug-2ad248eac4273a090de5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 14,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/note_expression_synth",
+					"targetIndexes" : 
+					[
+						18,
+						36
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_synth_auv3-Debug-10bacc2c20f509bb9439.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_text",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_text-Debug-5d0c39b72e0054197dbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 15,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/note_expression_text",
+					"targetIndexes" : 
+					[
+						19,
+						37
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/panner",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.panner-Debug-4cc0f2094d9574762fb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 16,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/panner",
+					"targetIndexes" : 
+					[
+						3,
+						38
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/pitchnames",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.pitchnames-Debug-b169921f131313723a45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 17,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/pitchnames",
+					"targetIndexes" : 
+					[
+						9,
+						39
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/prefetchablesupport",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.prefetchablesupport-Debug-c0354d6a1412f4419b4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 18,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/prefetchablesupport",
+					"targetIndexes" : 
+					[
+						4,
+						42
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/programchange",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.programchange-Debug-1fad189a793da254f0e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 19,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/programchange",
+					"targetIndexes" : 
+					[
+						7,
+						43
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/syncdelay",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.syncdelay-Debug-de3cf31ddb13478276d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 20,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/syncdelay",
+					"targetIndexes" : 
+					[
+						8,
+						47
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/auv3wrapper",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.auv3wrapper-Debug-5813c847a0471e2b37cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/source/vst/auv3wrapper"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plugin1",
+					"targetIndexes" : 
+					[
+						1,
+						21,
+						40
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						23,
+						27,
+						32,
+						39
+					],
+					"name" : "vstsdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						20,
+						28,
+						29,
+						30,
+						34,
+						48,
+						49,
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "smtg_pluginterfaces",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "smtg_base",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						13,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "smtg_public_sdk",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						17,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "smtg-vst3-adelay",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "smtg-vst3-again",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						23,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "smtg-vst3-again",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "smtg-vst3-again-sampleaccurate",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						10,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "smtg-vst3-channelcontext",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						12,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "smtg-vst3-hostchecker",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "smtg-vst3-legacymidiccout",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						14,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "smtg-vst3-mda",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						15,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "smtg-vst3-multiple-program-changes",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						16,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "smtg-vst3-noteexpressionsynth",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "smtg-vst3-noteexpressiontext",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						19,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "smtg-vst3-panner",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "smtg-vst3-pitchnames",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "smtg-vst3-prefetchable",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "smtg-vst3-programchange",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "smtg-vst3-syncdelay",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8,
+						47
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-ALL_BUILD-Debug-edcbe7a29472bdca5922.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-0176743aee493bdd8104.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@04115df932e4fc49a110",
+					"jsonFile" : "target-ALL_BUILD-Debug-c09c35a62dee8292b518.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ALL_BUILD::@9ddfdca674381b5d9228",
+					"jsonFile" : "target-ALL_BUILD-Debug-afb941599a2b5d215fba.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ALL_BUILD::@0996154b56ef0c43a249",
+					"jsonFile" : "target-ALL_BUILD-Debug-b418640603213759a8f9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ALL_BUILD::@c6beefe1847bdd1b4085",
+					"jsonFile" : "target-ALL_BUILD-Debug-34968bb66662e4739666.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@fc8c22d296703ae5bb4f",
+					"jsonFile" : "target-ALL_BUILD-Debug-3531154aee3c976995d6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ALL_BUILD::@4808a36c53bf121bab3c",
+					"jsonFile" : "target-ALL_BUILD-Debug-4b5ced21211f607319c0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ALL_BUILD::@932a70a66b653d92d5dd",
+					"jsonFile" : "target-ALL_BUILD-Debug-aa733e93149510a0c727.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ALL_BUILD::@8373f61a1897afc68a4f",
+					"jsonFile" : "target-ALL_BUILD-Debug-1c299faa4f4e2f6b78b0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@a0e23bd252f4effc021b",
+					"jsonFile" : "target-ALL_BUILD-Debug-b89b2fd5191274da34e0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-ALL_BUILD-Debug-09e29763c2a2528c6bbe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@9a855c43cf452464e970",
+					"jsonFile" : "target-ALL_BUILD-Debug-80a702dde167439f8cd8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@0735951bbe0919745031",
+					"jsonFile" : "target-ALL_BUILD-Debug-bb9dc6f1a8002f7b032d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ALL_BUILD::@9a7ac05681bb132962e4",
+					"jsonFile" : "target-ALL_BUILD-Debug-013b2f4307d0dc192b16.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "ALL_BUILD::@d443ee1072f4fba02cb9",
+					"jsonFile" : "target-ALL_BUILD-Debug-4a08a64994bcf2c6b5b3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ALL_BUILD::@f9c7d6da80475e42169d",
+					"jsonFile" : "target-ALL_BUILD-Debug-045919927bb1f59f05f1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-ALL_BUILD-Debug-ecfadf695320b7b8351a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ALL_BUILD::@ea820be0094b96ad3df7",
+					"jsonFile" : "target-ALL_BUILD-Debug-65a103d3ad9fc1784e14.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ALL_BUILD::@cc800d8b63700d8adc68",
+					"jsonFile" : "target-ALL_BUILD-Debug-b0c626a526fe72d628b8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "VST3Inspector::@dc840a833f6d1fb1f0f7",
+					"jsonFile" : "target-VST3Inspector-Debug-a600b439eb7e8c8a17b9.json",
+					"name" : "VST3Inspector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-f40cc7b2d0d1ead6818f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "adelay::@c6beefe1847bdd1b4085",
+					"jsonFile" : "target-adelay-Debug-f2d8d77dea0931631c20.json",
+					"name" : "adelay",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "again::@04115df932e4fc49a110",
+					"jsonFile" : "target-again-Debug-f8857c2321c0683321b6.json",
+					"name" : "again",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "again-sampleaccurate::@a0e23bd252f4effc021b",
+					"jsonFile" : "target-again-sampleaccurate-Debug-1b0b0a1ca94c74ac8dcf.json",
+					"name" : "again-sampleaccurate",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "againsimple::@04115df932e4fc49a110",
+					"jsonFile" : "target-againsimple-Debug-0f1da23da6865e511907.json",
+					"name" : "againsimple",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "base::@0735951bbe0919745031",
+					"jsonFile" : "target-base-Debug-1270c3de40d99226aa28.json",
+					"name" : "base",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "channelcontext::@9a855c43cf452464e970",
+					"jsonFile" : "target-channelcontext-Debug-b6a6c79646683550973c.json",
+					"name" : "channelcontext",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_VST_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_VST_modules-Debug-362f7ca1d939139a1bc6.json",
+					"name" : "cmake_VST_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_modules-Debug-90723d9da83ad133d4c6.json",
+					"name" : "cmake_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "editorhost::@dc0fb5d1d9d0b9a647fe",
+					"jsonFile" : "target-editorhost-Debug-741eee898000ef9cb1e9.json",
+					"name" : "editorhost",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hostchecker::@fc8c22d296703ae5bb4f",
+					"jsonFile" : "target-hostchecker-Debug-f2fea9d76bf389beef86.json",
+					"name" : "hostchecker",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "legacymidiccout::@9a7ac05681bb132962e4",
+					"jsonFile" : "target-legacymidiccout-Debug-bf35c6b0d725bdb01b0b.json",
+					"name" : "legacymidiccout",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "mda-vst3::@d443ee1072f4fba02cb9",
+					"jsonFile" : "target-mda-vst3-Debug-33347511412a815cba88.json",
+					"name" : "mda-vst3",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "moduleinfotool::@0ccd92616ad435ec5cfd",
+					"jsonFile" : "target-moduleinfotool-Debug-561c07b88e4faf8ec494.json",
+					"name" : "moduleinfotool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "multiple-program-changes::@f9c7d6da80475e42169d",
+					"jsonFile" : "target-multiple-program-changes-Debug-9bdc270015d985931292.json",
+					"name" : "multiple-program-changes",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "noteexpressionsynth::@ea820be0094b96ad3df7",
+					"jsonFile" : "target-noteexpressionsynth-Debug-89a8a7921321774c4ad3.json",
+					"name" : "noteexpressionsynth",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "noteexpressiontext::@cc800d8b63700d8adc68",
+					"jsonFile" : "target-noteexpressiontext-Debug-846d8b234ac304354b4f.json",
+					"name" : "noteexpressiontext",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "panner::@9ddfdca674381b5d9228",
+					"jsonFile" : "target-panner-Debug-bc218b83adbb40d14bdf.json",
+					"name" : "panner",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "pitchnames::@8373f61a1897afc68a4f",
+					"jsonFile" : "target-pitchnames-Debug-7861e12bef27d2bfbd56.json",
+					"name" : "pitchnames",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plugin1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plugin1-Debug-501c827440461aa0a684.json",
+					"name" : "plugin1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-pluginterfaces-Debug-f9dae62f8c4a7a299694.json",
+					"name" : "pluginterfaces",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "prefetchable::@0996154b56ef0c43a249",
+					"jsonFile" : "target-prefetchable-Debug-ebd686fcabc3d6bcac5c.json",
+					"name" : "prefetchable",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "programchange::@4808a36c53bf121bab3c",
+					"jsonFile" : "target-programchange-Debug-0d937db9f71812b4aaf9.json",
+					"name" : "programchange",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk-Debug-3b2f3f8cef42e5a72fe1.json",
+					"name" : "sdk",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_common::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_common-Debug-dcfc5dded95423995b8b.json",
+					"name" : "sdk_common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_hosting::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_hosting-Debug-571b518f2d90868496aa.json",
+					"name" : "sdk_hosting",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "syncdelay::@932a70a66b653d92d5dd",
+					"jsonFile" : "target-syncdelay-Debug-def5cc25a98f8eaf7dc0.json",
+					"name" : "syncdelay",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "validator::@cb6a5f45744856ded658",
+					"jsonFile" : "target-validator-Debug-3d5e6b55c1a819bdb520.json",
+					"name" : "validator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vstgui::@54a0746fa10a39fdb5d0",
+					"jsonFile" : "target-vstgui-Debug-0a9a3096fd886d518258.json",
+					"name" : "vstgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "vstgui_standalone::@ba128293594f8ecb9757",
+					"jsonFile" : "target-vstgui_standalone-Debug-cc510150ed7a45cafead.json",
+					"name" : "vstgui_standalone",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vstgui_support::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-vstgui_support-Debug-4b0364758ed636779e97.json",
+					"name" : "vstgui_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b",
+					"jsonFile" : "target-vstgui_uidescription-Debug-032e335614c3250bebb0.json",
+					"name" : "vstgui_uidescription",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						21,
+						40
+					]
+				},
+				{
+					"build" : "vst3sdk",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16,
+						18,
+						39
+					],
+					"jsonFile" : "directory-vst3sdk-Release-ee4ca2ec74fb292d21eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk",
+					"targetIndexes" : 
+					[
+						0,
+						28,
+						29,
+						51
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build-Release-f877a023f2ad09e8b715.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui-Release-3e458e7ec8d3cf157e38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/lib",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.lib-Release-442be628c812d36b8f4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/lib",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/uidescription",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.uidescription-Release-522e272945959f8f0811.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/uidescription",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/standalone",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.standalone-Release-1c81f75ff727bec81879.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/standalone",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "vst3sdk/pluginterfaces",
+					"jsonFile" : "directory-vst3sdk.pluginterfaces-Release-e33e1e0341f1ca885263.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "C:/Users/pj/vst3/vst3sdk/pluginterfaces",
+					"targetIndexes" : 
+					[
+						11,
+						41
+					]
+				},
+				{
+					"build" : "vst3sdk/base",
+					"jsonFile" : "directory-vst3sdk.base-Release-2b6e4b49f29d5ccf1b09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "C:/Users/pj/vst3/vst3sdk/base",
+					"targetIndexes" : 
+					[
+						13,
+						26
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk",
+					"jsonFile" : "directory-vst3sdk.public.sdk-Release-f68a4a36e996c539b4fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk",
+					"targetIndexes" : 
+					[
+						17,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/interappaudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.interappaudio-Release-cd28a4547114b6aef455.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/source/vst/interappaudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting-Release-e03d3796e5f47ed842b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/audiohost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.audiohost-Release-3fbcd39003aca119f16d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/audiohost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.editorhost-Release-c1b799fc71959d7a4283.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.inspectorapp-Release-c9264b1af6a55fbb6130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.validator-Release-0ec6ffcbe801bbc1e7b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities-Release-52016ff271aa525a3549.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-utilities"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities.moduleinfotool-Release-1e14aa4271a305ce149e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst",
+					"childIndexes" : 
+					[
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-Release-9d3cb27c1b66b774a79b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/InterAppAudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.InterAppAudio-Release-246d3a667e481db9d5c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/InterAppAudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/adelay",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.adelay-Release-f7dec84e8e62bbcc8782.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 5,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/adelay",
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again-Release-501610972888b4076628.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again",
+					"targetIndexes" : 
+					[
+						2,
+						23,
+						25
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_aax",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_aax-Release-1dc0c2e9a4fd85e7fbd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 7,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again_aax"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_auv3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_auv3-Release-3aa25ee5f62fb166dcde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again_auv3"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/again_sampleaccurate",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.again_sampleaccurate-Release-250a1e974ab9c73d3257.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 8,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again_sampleaccurate",
+					"targetIndexes" : 
+					[
+						10,
+						24
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/channelcontext",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.channelcontext-Release-eb7c0a957e4f14000d9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 9,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/channelcontext",
+					"targetIndexes" : 
+					[
+						12,
+						27
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/hostchecker",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.hostchecker-Release-9deaacadd126b5395da1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 10,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/hostchecker",
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/hostchecker_aax",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.hostchecker_aax-Release-6aed2a92fd5ecaa7c578.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/hostchecker_aax"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/legacymidiccout",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.legacymidiccout-Release-c64ae0c3ad186f0f7f2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 11,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/legacymidiccout",
+					"targetIndexes" : 
+					[
+						14,
+						32
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/mda-vst3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.mda-vst3-Release-5501720c1d4bb0116cde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 12,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/mda-vst3",
+					"targetIndexes" : 
+					[
+						15,
+						33
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/multiple_programchanges",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.multiple_programchanges-Release-e72dd49fcf2d469fc0eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 13,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/multiple_programchanges",
+					"targetIndexes" : 
+					[
+						16,
+						35
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_synth",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_synth-Release-2ad248eac4273a090de5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 14,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/note_expression_synth",
+					"targetIndexes" : 
+					[
+						18,
+						36
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_synth_auv3-Release-10bacc2c20f509bb9439.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/note_expression_text",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.note_expression_text-Release-5d0c39b72e0054197dbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 15,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/note_expression_text",
+					"targetIndexes" : 
+					[
+						19,
+						37
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/panner",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.panner-Release-4cc0f2094d9574762fb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 16,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/panner",
+					"targetIndexes" : 
+					[
+						3,
+						38
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/pitchnames",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.pitchnames-Release-b169921f131313723a45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 17,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/pitchnames",
+					"targetIndexes" : 
+					[
+						9,
+						39
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/prefetchablesupport",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.prefetchablesupport-Release-c0354d6a1412f4419b4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 18,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/prefetchablesupport",
+					"targetIndexes" : 
+					[
+						4,
+						42
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/programchange",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.programchange-Release-1fad189a793da254f0e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 19,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/programchange",
+					"targetIndexes" : 
+					[
+						7,
+						43
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst/syncdelay",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst.syncdelay-Release-de3cf31ddb13478276d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 20,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/syncdelay",
+					"targetIndexes" : 
+					[
+						8,
+						47
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/auv3wrapper",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.auv3wrapper-Release-5813c847a0471e2b37cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/source/vst/auv3wrapper"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plugin1",
+					"targetIndexes" : 
+					[
+						1,
+						21,
+						40
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						23,
+						27,
+						32,
+						39
+					],
+					"name" : "vstsdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						20,
+						28,
+						29,
+						30,
+						34,
+						48,
+						49,
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "smtg_pluginterfaces",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "smtg_base",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						13,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "smtg_public_sdk",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						17,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "smtg-vst3-adelay",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "smtg-vst3-again",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						23,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "smtg-vst3-again",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "smtg-vst3-again-sampleaccurate",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						10,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "smtg-vst3-channelcontext",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						12,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "smtg-vst3-hostchecker",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "smtg-vst3-legacymidiccout",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						14,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "smtg-vst3-mda",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						15,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "smtg-vst3-multiple-program-changes",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						16,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "smtg-vst3-noteexpressionsynth",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "smtg-vst3-noteexpressiontext",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						19,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "smtg-vst3-panner",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "smtg-vst3-pitchnames",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "smtg-vst3-prefetchable",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "smtg-vst3-programchange",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "smtg-vst3-syncdelay",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8,
+						47
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-ALL_BUILD-Release-edcbe7a29472bdca5922.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-0176743aee493bdd8104.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@04115df932e4fc49a110",
+					"jsonFile" : "target-ALL_BUILD-Release-c09c35a62dee8292b518.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ALL_BUILD::@9ddfdca674381b5d9228",
+					"jsonFile" : "target-ALL_BUILD-Release-afb941599a2b5d215fba.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ALL_BUILD::@0996154b56ef0c43a249",
+					"jsonFile" : "target-ALL_BUILD-Release-b418640603213759a8f9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ALL_BUILD::@c6beefe1847bdd1b4085",
+					"jsonFile" : "target-ALL_BUILD-Release-34968bb66662e4739666.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@fc8c22d296703ae5bb4f",
+					"jsonFile" : "target-ALL_BUILD-Release-3531154aee3c976995d6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ALL_BUILD::@4808a36c53bf121bab3c",
+					"jsonFile" : "target-ALL_BUILD-Release-4b5ced21211f607319c0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ALL_BUILD::@932a70a66b653d92d5dd",
+					"jsonFile" : "target-ALL_BUILD-Release-aa733e93149510a0c727.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ALL_BUILD::@8373f61a1897afc68a4f",
+					"jsonFile" : "target-ALL_BUILD-Release-1c299faa4f4e2f6b78b0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@a0e23bd252f4effc021b",
+					"jsonFile" : "target-ALL_BUILD-Release-b89b2fd5191274da34e0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-ALL_BUILD-Release-09e29763c2a2528c6bbe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@9a855c43cf452464e970",
+					"jsonFile" : "target-ALL_BUILD-Release-80a702dde167439f8cd8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@0735951bbe0919745031",
+					"jsonFile" : "target-ALL_BUILD-Release-bb9dc6f1a8002f7b032d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ALL_BUILD::@9a7ac05681bb132962e4",
+					"jsonFile" : "target-ALL_BUILD-Release-013b2f4307d0dc192b16.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "ALL_BUILD::@d443ee1072f4fba02cb9",
+					"jsonFile" : "target-ALL_BUILD-Release-4a08a64994bcf2c6b5b3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ALL_BUILD::@f9c7d6da80475e42169d",
+					"jsonFile" : "target-ALL_BUILD-Release-045919927bb1f59f05f1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-ALL_BUILD-Release-ecfadf695320b7b8351a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ALL_BUILD::@ea820be0094b96ad3df7",
+					"jsonFile" : "target-ALL_BUILD-Release-65a103d3ad9fc1784e14.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ALL_BUILD::@cc800d8b63700d8adc68",
+					"jsonFile" : "target-ALL_BUILD-Release-b0c626a526fe72d628b8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "VST3Inspector::@dc840a833f6d1fb1f0f7",
+					"jsonFile" : "target-VST3Inspector-Release-c972306fba4a051a08bb.json",
+					"name" : "VST3Inspector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-f40cc7b2d0d1ead6818f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "adelay::@c6beefe1847bdd1b4085",
+					"jsonFile" : "target-adelay-Release-5b928ddefd8e78c3c57b.json",
+					"name" : "adelay",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "again::@04115df932e4fc49a110",
+					"jsonFile" : "target-again-Release-5e50d0b2646684822260.json",
+					"name" : "again",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "again-sampleaccurate::@a0e23bd252f4effc021b",
+					"jsonFile" : "target-again-sampleaccurate-Release-414f6e60ed13f75c2057.json",
+					"name" : "again-sampleaccurate",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "againsimple::@04115df932e4fc49a110",
+					"jsonFile" : "target-againsimple-Release-dd3f68db90e1b6cbf84d.json",
+					"name" : "againsimple",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "base::@0735951bbe0919745031",
+					"jsonFile" : "target-base-Release-b5dccaec81f4c7046c38.json",
+					"name" : "base",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "channelcontext::@9a855c43cf452464e970",
+					"jsonFile" : "target-channelcontext-Release-86b12bbb23da56b69c31.json",
+					"name" : "channelcontext",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_VST_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_VST_modules-Release-362f7ca1d939139a1bc6.json",
+					"name" : "cmake_VST_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_modules-Release-90723d9da83ad133d4c6.json",
+					"name" : "cmake_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "editorhost::@dc0fb5d1d9d0b9a647fe",
+					"jsonFile" : "target-editorhost-Release-1696c7ce0d02ed549d51.json",
+					"name" : "editorhost",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hostchecker::@fc8c22d296703ae5bb4f",
+					"jsonFile" : "target-hostchecker-Release-f9f1ca32acd05b055115.json",
+					"name" : "hostchecker",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "legacymidiccout::@9a7ac05681bb132962e4",
+					"jsonFile" : "target-legacymidiccout-Release-93514013b28d57b6f364.json",
+					"name" : "legacymidiccout",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "mda-vst3::@d443ee1072f4fba02cb9",
+					"jsonFile" : "target-mda-vst3-Release-6e75cdf3be77ba4b0d7c.json",
+					"name" : "mda-vst3",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "moduleinfotool::@0ccd92616ad435ec5cfd",
+					"jsonFile" : "target-moduleinfotool-Release-88b3afed5cad31413cc3.json",
+					"name" : "moduleinfotool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "multiple-program-changes::@f9c7d6da80475e42169d",
+					"jsonFile" : "target-multiple-program-changes-Release-5d5e1530d8d829a66e5b.json",
+					"name" : "multiple-program-changes",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "noteexpressionsynth::@ea820be0094b96ad3df7",
+					"jsonFile" : "target-noteexpressionsynth-Release-20e986feedcda825d758.json",
+					"name" : "noteexpressionsynth",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "noteexpressiontext::@cc800d8b63700d8adc68",
+					"jsonFile" : "target-noteexpressiontext-Release-b8a1ecd8be956f5217c6.json",
+					"name" : "noteexpressiontext",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "panner::@9ddfdca674381b5d9228",
+					"jsonFile" : "target-panner-Release-98f66afbb5dc69c23244.json",
+					"name" : "panner",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "pitchnames::@8373f61a1897afc68a4f",
+					"jsonFile" : "target-pitchnames-Release-e5edd71b7302e29f541c.json",
+					"name" : "pitchnames",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plugin1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plugin1-Release-29f14ad3d0aa3cb3e14e.json",
+					"name" : "plugin1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-pluginterfaces-Release-66923673e9af19708afc.json",
+					"name" : "pluginterfaces",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "prefetchable::@0996154b56ef0c43a249",
+					"jsonFile" : "target-prefetchable-Release-3e88a28f64ad23699c01.json",
+					"name" : "prefetchable",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "programchange::@4808a36c53bf121bab3c",
+					"jsonFile" : "target-programchange-Release-51e36e32eb09abcdc342.json",
+					"name" : "programchange",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk-Release-004281fe244a700f1b00.json",
+					"name" : "sdk",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_common::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_common-Release-ab7ce1eb0e8549e0b2c7.json",
+					"name" : "sdk_common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_hosting::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_hosting-Release-558dc583f77ff1e1ba9b.json",
+					"name" : "sdk_hosting",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "syncdelay::@932a70a66b653d92d5dd",
+					"jsonFile" : "target-syncdelay-Release-98eedce8a0805d2fb287.json",
+					"name" : "syncdelay",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "validator::@cb6a5f45744856ded658",
+					"jsonFile" : "target-validator-Release-e332377e595c13a90640.json",
+					"name" : "validator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vstgui::@54a0746fa10a39fdb5d0",
+					"jsonFile" : "target-vstgui-Release-37d724fe9587cbaf5c9e.json",
+					"name" : "vstgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "vstgui_standalone::@ba128293594f8ecb9757",
+					"jsonFile" : "target-vstgui_standalone-Release-37262c0f0c8fc28a9104.json",
+					"name" : "vstgui_standalone",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vstgui_support::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-vstgui_support-Release-85c2090c267629b7a8ff.json",
+					"name" : "vstgui_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b",
+					"jsonFile" : "target-vstgui_uidescription-Release-d226cc32335ed03d3e4b.json",
+					"name" : "vstgui_uidescription",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pj/vst3/plugin1/build",
+		"source" : "C:/Users/pj/vst3/plugin1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

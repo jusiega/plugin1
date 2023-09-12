@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/programchange/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "programchange::@4808a36c53bf121bab3c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@4808a36c53bf121bab3c",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst/programchange",
+		"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/programchange"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

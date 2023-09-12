@@ -1,0 +1,10 @@
+^C:\USERS\PJ\VST3\VST3SDK\PUBLIC.SDK\SAMPLES\VST-HOSTING\VALIDATOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pj/vst3/plugin1 -BC:/Users/pj/vst3/plugin1/build --check-stamp-file C:/Users/pj/vst3/plugin1/build/vst3sdk/public.sdk/samples/vst-hosting/validator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

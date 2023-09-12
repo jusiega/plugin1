@@ -1,0 +1,124 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "vstgui_support::@84df0381bbe72cab14f2"
+		},
+		{
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
+		},
+		{
+			"id" : "sdk::@cd6fd055087e8e969d30"
+		},
+		{
+			"id" : "VST3Inspector::@dc840a833f6d1fb1f0f7"
+		},
+		{
+			"id" : "validator::@cb6a5f45744856ded658"
+		},
+		{
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+		},
+		{
+			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
+		},
+		{
+			"id" : "vstgui_standalone::@ba128293594f8ecb9757"
+		},
+		{
+			"id" : "sdk_hosting::@cd6fd055087e8e969d30"
+		},
+		{
+			"id" : "editorhost::@dc0fb5d1d9d0b9a647fe"
+		},
+		{
+			"id" : "moduleinfotool::@0ccd92616ad435ec5cfd"
+		},
+		{
+			"id" : "multiple-program-changes::@f9c7d6da80475e42169d"
+		},
+		{
+			"id" : "noteexpressionsynth::@ea820be0094b96ad3df7"
+		},
+		{
+			"id" : "channelcontext::@9a855c43cf452464e970"
+		},
+		{
+			"id" : "hostchecker::@fc8c22d296703ae5bb4f"
+		},
+		{
+			"id" : "legacymidiccout::@9a7ac05681bb132962e4"
+		},
+		{
+			"id" : "again-sampleaccurate::@a0e23bd252f4effc021b"
+		},
+		{
+			"id" : "again::@04115df932e4fc49a110"
+		},
+		{
+			"id" : "adelay::@c6beefe1847bdd1b4085"
+		},
+		{
+			"id" : "againsimple::@04115df932e4fc49a110"
+		},
+		{
+			"id" : "mda-vst3::@d443ee1072f4fba02cb9"
+		},
+		{
+			"id" : "noteexpressiontext::@cc800d8b63700d8adc68"
+		},
+		{
+			"id" : "panner::@9ddfdca674381b5d9228"
+		},
+		{
+			"id" : "pitchnames::@8373f61a1897afc68a4f"
+		},
+		{
+			"id" : "prefetchable::@0996154b56ef0c43a249"
+		},
+		{
+			"id" : "programchange::@4808a36c53bf121bab3c"
+		},
+		{
+			"id" : "syncdelay::@932a70a66b653d92d5dd"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@84df0381bbe72cab14f2",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk",
+		"source" : "C:/Users/pj/vst3/vst3sdk"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

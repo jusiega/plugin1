@@ -1,0 +1,11 @@
+C:\Users\pj\vst3\vst3sdk\base\source\baseiids.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\baseiids.obj
+C:\Users\pj\vst3\vst3sdk\base\source\fbuffer.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fbuffer.obj
+C:\Users\pj\vst3\vst3sdk\base\source\fdebug.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fdebug.obj
+C:\Users\pj\vst3\vst3sdk\base\source\fdynlib.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fdynlib.obj
+C:\Users\pj\vst3\vst3sdk\base\source\fobject.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fobject.obj
+C:\Users\pj\vst3\vst3sdk\base\source\fstreamer.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fstreamer.obj
+C:\Users\pj\vst3\vst3sdk\base\source\fstring.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fstring.obj
+C:\Users\pj\vst3\vst3sdk\base\source\timer.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\timer.obj
+C:\Users\pj\vst3\vst3sdk\base\source\updatehandler.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\updatehandler.obj
+C:\Users\pj\vst3\vst3sdk\base\thread\source\fcondition.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\fcondition.obj
+C:\Users\pj\vst3\vst3sdk\base\thread\source\flock.cpp;C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.dir\Release\flock.obj

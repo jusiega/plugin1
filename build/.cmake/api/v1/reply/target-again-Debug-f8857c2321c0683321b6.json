@@ -1,0 +1,911 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "VST3/Debug/again.vst3/Contents/x86_64-win/again.vst3"
+		},
+		{
+			"path" : "vst3sdk/public.sdk/samples/vst/again/WIN_PDB64/Debug/again.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"smtg_add_vst3plugin_with_pkgname",
+			"smtg_add_vst3plugin",
+			"target_link_libraries",
+			"smtg_enable_vstgui_support",
+			"add_custom_command",
+			"smtg_target_run_vst_validator",
+			"smtg_target_create_module_info_file",
+			"add_compile_options",
+			"smtg_setup_platform_toolset",
+			"target_compile_options",
+			"smtg_target_make_plugin_package",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"smtg_target_configure_version_file",
+			"target_compile_features",
+			"target_sources",
+			"smtg_target_add_library_main",
+			"smtg_target_add_plugin_resource",
+			"smtg_target_add_plugin_resources",
+			"smtg_target_add_plugin_snapshots"
+		],
+		"files" : 
+		[
+			"C:/Users/pj/vst3/vst3sdk/cmake/modules/SMTG_AddVST3Library.cmake",
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt",
+			"C:/Users/pj/vst3/vst3sdk/public.sdk/CMakeLists.txt",
+			"C:/Users/pj/vst3/vst3sdk/cmake/modules/SMTG_VstGuiSupport.cmake",
+			"C:/Users/pj/vst3/vst3sdk/CMakeLists.txt",
+			"C:/Users/pj/vst3/vst3sdk/vstgui4/vstgui/uidescription/CMakeLists.txt",
+			"C:/Users/pj/vst3/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake",
+			"C:/Users/pj/vst3/vst3sdk/cmake/modules/SMTG_AddSMTGLibrary.cmake",
+			"C:/Users/pj/vst3/vst3sdk/cmake/modules/SMTG_Bundle.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 115,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 5
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 93,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 181,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 31,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 11,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 83,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 84,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 85,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 86,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 88,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 89,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 90,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 107,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 114,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 392,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 75,
+				"parent" : 17
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 44,
+				"parent" : 8
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 158,
+				"parent" : 34
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 7,
+				"line" : 273,
+				"parent" : 30
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 176,
+				"parent" : 37
+			},
+			{
+				"command" : 20,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 40
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 42
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 44
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 46
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 48
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 50
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 531,
+				"parent" : 52
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 53
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 531,
+				"parent" : 52
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 55
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 531,
+				"parent" : 52
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 57
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 531,
+				"parent" : 52
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 466,
+				"parent" : 59
+			},
+			{
+				"command" : 17,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-DSMTG_RENAME_ASSERT=1"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/fp:fast"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "/wd6031"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "/wd6308"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "/wd6330"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "/wd6385"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "/wd6386"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "/wd28125"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "/wd28251"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "/ZI"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "/MDd"
+				},
+				{
+					"backtrace" : 31,
+					"fragment" : "/wd4221"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DDEVELOPMENT=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "SMTG_MODULE_IS_BUNDLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VSTGUI_ENABLE_DEPRECATED_METHODS=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VSTGUI_LIVE_EDITING"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "again_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/pj/vst3/vst3sdk"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/pj/vst3/plugin1/build/vst3sdk/public.sdk/samples/vst/again"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/base/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/pluginterfaces/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/vstgui4"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					36,
+					4,
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				8,
+				13
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-DSMTG_RENAME_ASSERT=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DDEVELOPMENT=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "SMTG_MODULE_IS_BUNDLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VSTGUI_ENABLE_DEPRECATED_METHODS=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VSTGUI_LIVE_EDITING"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "again_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/pj/vst3/vst3sdk"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/pj/vst3/plugin1/build/vst3sdk/public.sdk/samples/vst/again"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/base/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/pluginterfaces/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/pj/vst3/vst3sdk/vstgui4"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "vstgui_support::@84df0381bbe72cab14f2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sdk::@cd6fd055087e8e969d30"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "validator::@cb6a5f45744856ded658"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "moduleinfotool::@0ccd92616ad435ec5cfd"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "PlugInExamples"
+	},
+	"id" : "again::@04115df932e4fc49a110",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /SAFESEH:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\sdk.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\vstgui_support.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\sdk_common.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\pluginterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\base.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\vstgui_uidescription.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\..\\..\\..\\..\\lib\\Debug\\vstgui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "again",
+	"nameOnDisk" : "again.vst3",
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst/again",
+		"source" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				8,
+				13,
+				24
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6,
+				7,
+				9,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/again.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/again.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againcids.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/source/version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/source/main/dllmain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/background.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 43,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 45,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 47,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 49,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 51,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 54,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 56,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 58,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 60,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/pj/vst3/vst3sdk/public.sdk/samples/vst/again/resource/again.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

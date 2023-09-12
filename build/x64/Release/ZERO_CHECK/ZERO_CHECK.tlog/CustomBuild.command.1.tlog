@@ -1,0 +1,10 @@
+^C:\USERS\PJ\VST3\PLUGIN1\BUILD\CMAKEFILES\310598780D268664C491A1E5C0FC8F0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pj/vst3/plugin1 -BC:/Users/pj/vst3/plugin1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/pj/vst3/plugin1/build/plugin1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88D32C77-350C-389F-9669-6003D4AEC967}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\pj\vst3\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\pj\vst3\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/pj/vst3/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pj/vst3/plugin1 -BC:/Users/pj/vst3/plugin1/build --check-stamp-file C:/Users/pj/vst3/plugin1/build/vst3sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\pj\vst3\plugin1\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/pj/vst3/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pj/vst3/plugin1 -BC:/Users/pj/vst3/plugin1/build --check-stamp-file C:/Users/pj/vst3/plugin1/build/vst3sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\pj\vst3\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\pj\vst3\plugin1\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\ZERO_CHECK.vcxproj">
+      <Project>{99F18AAC-BE95-30C4-ACA7-FCE0DF2A1371}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst-hosting\inspectorapp\VST3Inspector.vcxproj">
+      <Project>{EC96582C-CE16-34B4-8BAE-B14B5887D0F8}</Project>
+      <Name>VST3Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\adelay\adelay.vcxproj">
+      <Project>{3F19428F-CDB0-354E-A24B-F50ED13823B9}</Project>
+      <Name>adelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\again\again.vcxproj">
+      <Project>{D4D2A05E-65A0-3B27-A620-204835D063C0}</Project>
+      <Name>again</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\again_sampleaccurate\again-sampleaccurate.vcxproj">
+      <Project>{34FD0991-B39E-3C40-92A2-A935CAC7A889}</Project>
+      <Name>again-sampleaccurate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\again\againsimple.vcxproj">
+      <Project>{D3EB97CF-FF0C-3247-AC3E-0EB371CB04CA}</Project>
+      <Name>againsimple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\base\base.vcxproj">
+      <Project>{7B3961FB-D046-3E9D-8066-3859F5E85381}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
+      <Project>{A1EE320B-578F-3DA1-B97B-F65DF16AD841}</Project>
+      <Name>channelcontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
+      <Project>{2ED2238C-09E0-37A0-B42E-BF0CBA1F9082}</Project>
+      <Name>editorhost</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\hostchecker\hostchecker.vcxproj">
+      <Project>{56260270-BC95-31C7-B3A5-0480403B7782}</Project>
+      <Name>hostchecker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
+      <Project>{FF8AE139-5121-3BDB-A2AA-C45CE38A703E}</Project>
+      <Name>legacymidiccout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
+      <Project>{FACD2CD3-A0A3-3237-9211-BE5A7BD4B480}</Project>
+      <Name>mda-vst3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
+      <Project>{3140CF39-7A20-3254-B217-50B54549ED53}</Project>
+      <Name>moduleinfotool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\multiple_programchanges\multiple-program-changes.vcxproj">
+      <Project>{347D59DF-CBB9-3122-8D5B-034C3B1FFD29}</Project>
+      <Name>multiple-program-changes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\note_expression_synth\noteexpressionsynth.vcxproj">
+      <Project>{CA475E8D-E3F1-3196-8196-F67B93883157}</Project>
+      <Name>noteexpressionsynth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\note_expression_text\noteexpressiontext.vcxproj">
+      <Project>{928107C0-2BA9-315A-A774-E1C0C45C5DBC}</Project>
+      <Name>noteexpressiontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\panner\panner.vcxproj">
+      <Project>{3B341B51-2AD3-35C4-BC3B-95B4301684A9}</Project>
+      <Name>panner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\pitchnames\pitchnames.vcxproj">
+      <Project>{61722B1D-D362-37C8-AC9E-EBBF0258EE8B}</Project>
+      <Name>pitchnames</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{0F5D3330-1315-3A11-897A-10681C4AD3D7}</Project>
+      <Name>pluginterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\prefetchablesupport\prefetchable.vcxproj">
+      <Project>{70409610-7CA6-38EF-8B6E-C4C1A5BD190D}</Project>
+      <Name>prefetchable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\programchange\programchange.vcxproj">
+      <Project>{7AFCDDE1-FBCF-354A-B91F-C888C9DC3CBA}</Project>
+      <Name>programchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\sdk.vcxproj">
+      <Project>{D4A7F7E1-95F3-3B38-8598-1B6DC51A2F7B}</Project>
+      <Name>sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{189BF356-264D-3045-AD07-997DA4A37DAB}</Project>
+      <Name>sdk_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
+      <Project>{9E049741-B144-36B5-8BBE-19D9DE04E04E}</Project>
+      <Name>sdk_hosting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
+      <Project>{54CFB0AA-A3DE-3DD5-8C4C-921485A14C30}</Project>
+      <Name>syncdelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{9C8F8918-8E58-34FE-957B-C89C770F688A}</Project>
+      <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{F65543EB-5C2C-35DD-B6CE-38D420F7F2A3}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\VSTGUI.build\vstgui\standalone\vstgui_standalone.vcxproj">
+      <Project>{0F498850-A7E8-38E9-9249-4957FD907F26}</Project>
+      <Name>vstgui_standalone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{78431705-45D2-3551-B911-A75BC9C7419B}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pj\vst3\plugin1\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{C742BD74-02D6-31F1-8CB8-B46FEA7B48EC}</Project>
+      <Name>vstgui_uidescription</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\pj\vst3\vst3sdk\public.sdk\source\vst\vstsinglecomponenteffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\source\againsimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\pj\vst3\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\pj\vst3\vst3sdk\public.sdk\source\vst\vstsinglecomponenteffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\source\againparamids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\source\againsimple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\again.uidesc" />
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\background.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\slider_background.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\slider_handle.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\slider_handle_2.0x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\vu_on.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\vu_off.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\pj\vst3\vst3sdk\public.sdk\samples\vst\again\resource\again.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{136606AE-E5C4-39D1-81A4-D706F5F0A272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{E8BE6750-FBD1-38E1-82EC-300E6886EB17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{786846A4-81E0-3114-9621-201F95CF4AEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
