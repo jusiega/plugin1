@@ -17,6 +17,8 @@ cmake --build . --config Release --target plugin1
 ```
 # Rekomendowane oprogramowanie tesujące
 Dowolny DAW, z zastrzeżeniem że niektóre trzeszczą.
+# Interfejs
+Po załadowaniu do DAW powinien ujawnić się prymitywny interfejs graficzny wrażliwy na manipulacje myszą,
 # Rekomendowane ustawienia
 Byle nie trzeszczało bo wtedy wydaje się że coś jest zepsute. Sprowadza się to do wysokich ustawień "flanger period" oraz niskich ustawień "flanger amplitude"
 # Dlaczego trzeszczy?
