@@ -5,7 +5,6 @@
 #include "mypluginprocessor.h"
 #include "myplugincids.h"
 #include "pluginterfaces/vst/ivstprocesscontext.h"
-#include <fftw3.h>
 
 #include "base/source/fstreamer.h"
 #include "pluginterfaces/vst/ivstparameterchanges.h"
